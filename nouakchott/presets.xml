@@ -1,4 +1,4 @@
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Samuel Rioja - Trufi Association" version="1.0" link="https://www.trufi-association.org/" shortdescription="Trufi Association" description="One click presets for the new Public Transport in Bolivia">
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Nouakchott - Trufi Association" version="1.0" link="https://www.trufi-association.org/" shortdescription="Trufi Association" description="One click presets for the new Public Transport in Nouakchott">
     <group name="Trufi Association" icon="https://www.trufi.app/wp-content/uploads/2019/02/48.png">
         <item name="Stop Initial" type="node" icon="presets/transport/bus_old.svg">
             <label text="Stop Initial"/>
@@ -13,15 +13,17 @@
             <label text=""/>
             <key key="public_transport:version" value="2"/>
             <key key="type" value="route"/>
+            <key key="fee" value="yes"/>
 
             <text key="name" text="Route name" default="" delete_if_empty="true"/>
+            <text key="ref" text="ref" default="" delete_if_empty="true"/>
             <text key="from" text="From" default="" delete_if_empty="true"/>
+            <text key="via" text="Via" default="" delete_if_empty="true"/>
             <text key="to" text="To" default="" delete_if_empty="true"/>
             <text key="operator" text="Operator" default="" delete_if_empty="true"/>
-            <text key="ref" text="ref" default="" delete_if_empty="true"/>
+            <text key="charge" text="Charge" default="5 MRU" delete_if_empty="true"/>
             <label text=""/>
-            <combo key="route" text="Route type" values="bus,share_taxi" default="bus"/>
-            <combo key="wheelchair (no)" text="Wheelchair" values="no,yes" default="no" delete_if_empty="true"/>
+            <combo key="route" text="Route type" values="bus,share_taxi,minibus" default="bus"/>
             <combo key="on_demand (yes)" text="On demand" values="no,yes" default="yes" delete_if_empty="true"/>
         </item>
         <item name="Master Route" type="relation" icon="presets/barrier/entrance.svg">
