@@ -36,7 +36,7 @@
             <text key="name" text="Master route name" default="" delete_if_empty="true"/>
             <text key="operator" text="Operator" default="" delete_if_empty="true"/>
             <text key="ref" text="ref" default="" delete_if_empty="true"/>
-            <combo key="route_master" text="route" values="bus,share_taxi" default="bus"/>
+            <combo key="route_master" text="route" values="bus,share_taxi, minibus" default="bus"/>
         </item>
     </group>
 </presets>
