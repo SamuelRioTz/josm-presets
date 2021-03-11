@@ -3,8 +3,9 @@
         <item name="Stop Initial" type="node" icon="presets/transport/bus_old.svg">
             <label text="Stop Initial"/>
             <label text=""/>
-            <key key="public_transport" value="platform"/>
             <key key="bus" value="yes"/>
+            <key key="highway" value="bus_stop"/>
+            <key key="public_transport" value="platform"/>
             <text key="name" text="Stop name" default="" delete_if_empty="true"/>
         </item>
         <item name="Bus Route" type="relation" icon="presets/transport/way/path.svg">
