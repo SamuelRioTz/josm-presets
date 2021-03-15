@@ -1,6 +1,6 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Nouakchott - Trufi Association" version="1.0" link="https://www.trufi-association.org/" shortdescription="Trufi Association" description="One click presets for the new Public Transport in Nouakchott">
     <group name="Trufi Association" icon="https://www.trufi.app/wp-content/uploads/2019/02/48.png">
-        <item name="Stop Initial" type="node" icon="presets/transport/bus_old.svg">
+        <item name="Stop Initial" type="node" icon="presets/transport/bus_old.svg" role="platform">
             <label text="Stop Initial"/>
             <label text=""/>
             <key key="bus" value="yes"/>
@@ -19,8 +19,8 @@
             <text key="ref" text="ref" default="" delete_if_empty="true"/>
             <text key="from" text="From" default="" delete_if_empty="true"/>
             <text key="to" text="To" default="" delete_if_empty="true"/>
-            <text key="operator" text="Operator" default="" delete_if_empty="true"/>
-            <text key="network" text="Network" default="" delete_if_empty="true"/>
+            <text key="operator" text="Operator" default="STP (Société de Transport Public)" delete_if_empty="true"/>
+            <text key="network" text="Network" default="STP (Société de Transport Public)" delete_if_empty="true"/>
             <text key="opening_hours" text="Opening hours" default="" delete_if_empty="true"/>
             <text key="interval" text="Interval" default="" delete_if_empty="true"/>
             <text key="duration" text="Duration" default="" delete_if_empty="true"/>
@@ -35,7 +35,8 @@
             <key key="type" value="route_master"/>
             
             <text key="name" text="Master route name" default="" delete_if_empty="true"/>
-            <text key="operator" text="Operator" default="" delete_if_empty="true"/>
+            <text key="network" text="Network" default="STP (Société de Transport Public)" delete_if_empty="true"/>
+            <text key="operator" text="Operator" default="STP (Société de Transport Public)" delete_if_empty="true"/>
             <text key="ref" text="ref" default="" delete_if_empty="true"/>
             <combo key="route_master" text="route" values="bus,share_taxi, minibus" default="bus"/>
         </item>
