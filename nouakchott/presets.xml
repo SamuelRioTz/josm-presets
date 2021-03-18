@@ -21,10 +21,10 @@
             <text key="to" text="To" default="" delete_if_empty="true"/>
             <text key="operator" text="Operator" default="STP (Société de Transport Public)" delete_if_empty="true"/>
             <text key="network" text="Network" default="STP (Société de Transport Public)" delete_if_empty="true"/>
-            <text key="opening_hours" text="Opening hours" default="" delete_if_empty="true"/>
-            <text key="interval" text="Interval" default="" delete_if_empty="true"/>
-            <text key="duration" text="Duration" default="" delete_if_empty="true"/>
-            <text key="charge" text="Charge" default="50 MRU" delete_if_empty="true"/>
+            <text key="opening_hours" text="Opening hours" default="07:00 - 20:00" delete_if_empty="true"/>
+            <text key="interval" text="Interval" default="30" delete_if_empty="true"/>
+            <text key="duration" text="Duration" default="30" delete_if_empty="true"/>
+            <text key="charge" text="Charge" default="5 MRU" delete_if_empty="true"/>
             <label text=""/>
             <combo key="route" text="Route type" values="bus,share_taxi,minibus" default="bus"/>
         </item>
