@@ -19,14 +19,14 @@
             <text key="ref" text="ref" default="" delete_if_empty="true"/>
             <text key="from" text="From" default="" delete_if_empty="true"/>
             <text key="to" text="To" default="" delete_if_empty="true"/>
-            <text key="operator" text="Operator" default="ARTOR" delete_if_empty="true"/>
-            <text key="network" text="Network" default="ARTOR" delete_if_empty="true"/>
-            <text key="opening_hours" text="Opening hours" default="07:00 - 20:00" delete_if_empty="true"/>
-            <text key="interval" text="Interval" default="0" delete_if_empty="true"/>
-            <text key="duration" text="Duration" default="0" delete_if_empty="true"/>
+            <text key="operator" text="Operator" default="Association de chauffeur particulier" delete_if_empty="true"/>
+            <text key="network" text="Network" default="Association de chauffeur particulier" delete_if_empty="true"/>
+            <text key="opening_hours" text="Opening hours" default="07:00 - 00:00" delete_if_empty="true"/>
+            <text key="interval" text="Interval" default="3" delete_if_empty="true"/>
+            <text key="duration" text="Duration" default="15" delete_if_empty="true"/>
             <text key="charge" text="Charge" default="10 MRU" delete_if_empty="true"/>
             <label text=""/>
-            <combo key="route" text="Route type" values="bus,share_taxi,minibus" default="minibus"/>
+            <combo key="route" text="Route type" values="bus,share_taxi,minibus" default="share_taxi"/>
         </item>
         <item name="Master Route" type="relation" icon="presets/barrier/entrance.svg">
             <label text="Master Route"/>
@@ -35,10 +35,10 @@
             <key key="type" value="route_master"/>
             
             <text key="name" text="Master route name" default="" delete_if_empty="true"/>
-            <text key="network" text="Network" default="ARTOR" delete_if_empty="true"/>
-            <text key="operator" text="Operator" default="ARTOR" delete_if_empty="true"/>
+            <text key="network" text="Network" default="Association de chauffeur particulier" delete_if_empty="true"/>
+            <text key="operator" text="Operator" default="Association de chauffeur particulier" delete_if_empty="true"/>
             <text key="ref" text="ref" default="" delete_if_empty="true"/>
-            <combo key="route_master" text="route" values="bus,share_taxi, minibus" default="minibus"/>
+            <combo key="route_master" text="route" values="bus,share_taxi, minibus" default="share_taxi"/>
         </item>
     </group>
 </presets>
